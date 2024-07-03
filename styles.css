@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('font.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('bg.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'CustomFont', Arial, sans-serif;
+}
+
+.coming-soon h1 {
+    font-size: 3em;
+    color: #fff; /* Ensure the text color contrasts with your background */
+}
